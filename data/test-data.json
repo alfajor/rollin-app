@@ -1,0 +1,73 @@
+{
+    "academies":
+    [
+        {
+          "type": "Feature",
+          "properties": {
+              "id": 1,
+              "name": "McDojo",
+              "city": "Salt Lake City",
+              "state": "Utah",
+              "stateAbbr": "UT",
+              "country": "USA",
+              "address": "123 main street",
+              "website": "mcdojosmash.com"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-111.891045, 40.760780]
+            }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "id": 2,
+              "name": "McDojo2",
+              "city": "Boise",
+              "state": "Idaho",
+              "stateAbbr": "ID",
+              "country": "USA",
+              "address": "456 everyday street",
+              "website": "mcdojosmash.com"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-116.202316, 43.615021]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "name": "New Dojo",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "789 kick street",
+                "website": "anothermasterken.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.897278, 40.569710]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "name": "Yet Another Dojo",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "2000 roundhouse corner",
+                "website": "punchkickpunch.org"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.810516, 40.616310]
+            }
+        }
+    ]
+}
