@@ -12,7 +12,7 @@ export const getJsonData = async () => {
 
     return json;
   } catch(err) {
-    console.log(`Unable to render data: ${err}`);
+    console.log(`Unable to fetch data: ${err}`);
   }
 }
 

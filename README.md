@@ -9,7 +9,7 @@ Starting out with a basic map view pulling in some test data from a local JSON f
 The map makes use of Leaflet, which relies on a GeoJSON data format.
 
 Eventually, data should be sourced via a dedicated API service. This is another work in progress project.
-Other features and functionality will be continue to be added.
+Other features and functionality will continue to be added.
 
 # Use
 
