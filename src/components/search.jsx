@@ -11,6 +11,13 @@ const Search = ({dataList}) => {
     const searchHandler = (e) => {
         setSearchQuery(e.target.value)
         if(searchQuery) {
+            // API data shape
+            // const allResultsList = dataList.filter((data) => {
+            //     return data.data.map((el) => {
+            //         return Object.values(el.properties).join('').toLowerCase().includes(searchQuery.toLowerCase())
+            //     });
+            // });
+            // test data shape
             const allResultsList = dataList.filter((item) => {
                 delete item.properties.stateAbbr
                 // TODO: limit to city, state, name
@@ -21,7 +28,23 @@ const Search = ({dataList}) => {
     }  
 
     const renderMapResults = () => {
-        filteredQuery.map((item) => {
+        // API data shape
+        // filteredQuery.map((item) => {  
+        //     item.data.map((el) => {
+        //         const popupResults = `${el.properties.name}. ${el.properties.city}, ${el.properties.state} \n
+        //                           ${el.properties.address}, ${el.properties.website}`; 
+        //         setTimeout(() => {
+        //             if(searchQuery.length > 2) {
+        //                 map.flyTo(el.geometry.mapCoordinates, 10)
+        //                 map.openPopup(popupResults, el.geometry.mapCoordinates)
+        //             } else {
+        //                 map.closePopup()
+        //             }
+        //         }, 300)   
+        //     })
+        // });
+        // test data shape:
+        filteredQuery.map((item) => {       
             const popupResults = `${item.properties.name}. ${item.properties.city}, ${item.properties.state} \n
                                   ${item.properties.address}, ${item.properties.website}`; 
             setTimeout(() => {
