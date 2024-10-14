@@ -1,5 +1,5 @@
 import Map from './components/map';
-import Button from './components/atoms/button';
+import Search from './components/search';
 import styled from 'styled-components';
 
 const App = () => {
@@ -9,12 +9,9 @@ const App = () => {
         <MapWrapper>
           <ContentWrapper>
             <h1>Rollin' App</h1>
-            <h3>Locate BJJ academies and find partners to train.</h3>
-            {/* auth / sign up - login */}
-            <AuthWrapper>
-              <Button buttonText={'Log in'} buttonLink={'/'} />
-              <Button buttonText={'Register'} buttonLink={'/'} />
-            </AuthWrapper>
+            <h3>Locate BJJ academies in your area.</h3>
+    
+            <Search />
 
             <FooterContent>
               <p>&copy; {new Date().getFullYear()} blahblahblah inc. </p>
@@ -46,15 +43,9 @@ const ContentWrapper = styled.div`
   margin-top: 50px;
 `;
 
-const AuthWrapper = styled.div`
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-`;
-
 const FooterContent = styled.div`
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
 `;
 
 

@@ -6,7 +6,7 @@ export const getJsonData = async () => {
       method: "GET",
       headers: {
         Accept: "application/json",
-        Authorization: `Bearer ${import.meta.env.VITE_REACT_APP_API_KEY}`
+        Authorization: `Bearer ${import.meta.env.VITE_REACT_APP_API_KEY}` // api keys should be inside .env
       }});
     const json = await res.json();
 

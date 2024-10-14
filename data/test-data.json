@@ -72,6 +72,24 @@
                     "coordinates": [-111.810516, 40.616310],
                     "mapCoordinates": [40.616310, -111.810516]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "Wrastlin' Hole",
+                "city": "Seattle",
+                "state": "Washington",
+                "stateAbbr": "WA",
+                "country": "USA",
+                "address": "420 E Green Ave",
+                "website": "wrastlinhole.biz"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-122.332069, 47.606209],
+                    "mapCoordinates": [47.606209, -122.332069]
+            }
         }
     ]
 }

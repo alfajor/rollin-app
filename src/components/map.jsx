@@ -3,7 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { getJsonData, getTestJsonData } from "../../utils/fetch-data";
-import Search from "./search";
+import MapSearch from "./mapSearch";
 import GeoLocateMapCenter from './atoms/geolocate';
 import styled from 'styled-components';
 
@@ -85,7 +85,7 @@ const Map = () => {
                     })
                 } */}
                 <GeoLocateMapCenter />
-                <Search dataList={mapData} />
+                <MapSearch dataList={mapData} />
             </StyledMapContainer>         
         </>
     )

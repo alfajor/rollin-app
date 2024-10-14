@@ -1,12 +1,18 @@
 import { useState, useEffect } from 'react';
-import { useMap } from 'react-leaflet';
+import { getJsonData, getTestJsonData } from "../../utils/fetch-data";
 import styled from 'styled-components';
 
-const Search = ({dataList}) => {
+const Search = () => {
     const [searchQuery, setSearchQuery] = useState('');
-    const [filteredQuery, setFilteredQuery] = useState([])
+    const [queryResults, setQueryResults] = useState([]);
 
-    const map = useMap();
+    const [apiData, setApiData] = useState([]);
+
+    const renderApiJson = async () => {
+        //const geoJson = await getJsonData(); // API data 
+        const geoJson = await getTestJsonData(); // test local data
+        setApiData(geoJson.academies) // test data: geoJson.academies / api data: geojson
+    }
 
     const searchHandler = (e) => {
         setSearchQuery(e.target.value)
@@ -18,78 +24,53 @@ const Search = ({dataList}) => {
             //     });
             // });
             // test data shape
-            const allResultsList = dataList.filter((item) => {
-                delete item.properties.stateAbbr
-                // TODO: limit to city, state, name
-                return Object.values(item.properties).join('').toLowerCase().includes(searchQuery.toLowerCase())
+            const filteredResults = apiData.filter((item) => {
+                return Object.values(item.properties).join(', ').toLowerCase().includes(searchQuery.toLowerCase())
             });
-            setFilteredQuery(allResultsList);  
+            setQueryResults(filteredResults);  
         }
     }  
 
-    const renderMapResults = () => {
-        // API data shape
-        // filteredQuery.map((item) => {  
-        //     item.data.map((el) => {
-        //         const popupResults = `${el.properties.name}. ${el.properties.city}, ${el.properties.state} \n
-        //                           ${el.properties.address}, ${el.properties.website}`; 
-        //         setTimeout(() => {
-        //             if(searchQuery.length > 2) {
-        //                 map.flyTo(el.geometry.mapCoordinates, 10)
-        //                 map.openPopup(popupResults, el.geometry.mapCoordinates)
-        //             } else {
-        //                 map.closePopup()
-        //             }
-        //         }, 300)   
-        //     })
-        // });
-        // test data shape:
-        filteredQuery.map((item) => {       
-            const popupResults = `${item.properties.name}. ${item.properties.city}, ${item.properties.state} \n
-                                  ${item.properties.address}, ${item.properties.website}`; 
-            setTimeout(() => {
-                if(searchQuery.length > 2) {
-                    map.flyTo(item.geometry.mapCoordinates, 10)
-                    map.openPopup(popupResults, item.geometry.mapCoordinates)
-                } else {
-                    map.closePopup()
-                }
-            }, 300)    
-        });
-    }
-
     useEffect(() => {
-        renderMapResults()
+        renderApiJson()
     }, [searchQuery])
 
     return (
         <>
-            <SearchContainer>
-                <StyledInput type="text" placeholder='search' onChange={searchHandler} onKeyDown={searchHandler} />
-            </SearchContainer>
+            <SearchInput type="text" placeholder='Search by name, city, or state' onChange={searchHandler} onKeyDown={searchHandler} />
+
+            <ResultsContainer>
+                {searchQuery.length > 2 ?
+                    queryResults.map((item, idx) => {
+                        const resultsName = `${item.properties.name}`; 
+                        const resultsLocation = `${item.properties.address}. ${item.properties.city}, ${item.properties.stateAbbr}.`;
+                        const resultsContact = `${item.properties.website}`;
+                        return (
+                            <div key={idx}>
+                                <h4>{resultsName}</h4>
+                                <span>{resultsLocation}</span>
+                                <p><a href={`http://${resultsContact}`}>{resultsContact}</a></p>
+                            </div>
+                        )
+                    })
+                : null }
+            </ResultsContainer>
         </>
-    );
+    )
 }
 
-const SearchContainer = styled.div`
-    position: relative;
-    display: flex;
-    justify-content: end;
-    margin-top: 30px;
-    margin-right: 15px;
-    z-index: 9999;
-
-    ::placeholder {
-        color: #222;
-    }
-`;
-
-const StyledInput = styled.input`
-    border: 1px solid #222;
+const SearchInput = styled.input`
+    border: 1px solid #fff;
     border-radius: 5px;
     background: transparent;
-    padding: 8px 5px;
-    color: #222;
+    padding: 12px 6px;
+    color: #fff;
+    width: 50%;
+`;
+
+const ResultsContainer = styled.div`
+    margin-top: 20px;
+    line-height: 0.6;
 `;
 
 export default Search;
