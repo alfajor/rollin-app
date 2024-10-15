@@ -14,7 +14,7 @@ const App = () => {
             <Search />
 
             <FooterContent>
-              <p>&copy; {new Date().getFullYear()} blahblahblah inc. </p>
+              <p>&copy; {new Date().getFullYear()}. powered by <img src="../public/icons/espresso-icon.png" /> and <a href="https://bluefiginteractive.com" rel="nofollow" target="_blank">Blue Fig Interactive</a></p>
             </FooterContent>
           </ContentWrapper>
             
@@ -46,6 +46,13 @@ const ContentWrapper = styled.div`
 const FooterContent = styled.div`
   /* position: absolute; */
   /* bottom: 0; */
+
+  img {
+    position: relative;
+    top: 3px;
+    width: 25px;
+    height: 25px;
+  }
 `;
 
 
