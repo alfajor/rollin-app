@@ -11,8 +11,8 @@ const Map = () => {
     const [mapData, setMapData] = useState([]);
 
     const customMarkerIcon = new L.Icon({
-        iconUrl: '../public/icons/belt.png',
-        iconRetinaUrl: '../public/icons/belt.png',
+        iconUrl: '/icons/belt.png',
+        iconRetinaUrl: '/icons/belt.png',
         popupAnchor: [-0, -0],
         iconSize: [32,32],     
     });
