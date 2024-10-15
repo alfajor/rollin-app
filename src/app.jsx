@@ -14,7 +14,7 @@ const App = () => {
             <Search />
 
             <FooterContent>
-              <p>&copy; {new Date().getFullYear()}. powered by <img src="../public/icons/espresso-icon.png" /> and <a href="https://bluefiginteractive.com" rel="nofollow" target="_blank">Blue Fig Interactive</a></p>
+              <p>&copy; {new Date().getFullYear()}. powered by <img src="../dist/icons/espresso-icon.png" /> and <a href="https://bluefiginteractive.com" rel="nofollow" target="_blank">Blue Fig Interactive</a></p>
             </FooterContent>
           </ContentWrapper>
             
