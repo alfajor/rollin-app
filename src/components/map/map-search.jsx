@@ -44,9 +44,9 @@ const MapSearch = ({dataList}) => {
         //     })
         // });
         // test data shape:
-        filteredQuery.map((item) => {       
-            const popupResults = `${item.properties.name}. ${item.properties.city}, ${item.properties.state} \n
-                                  ${item.properties.address}, ${item.properties.website}`; 
+        filteredQuery.map((item) => {    
+            const popupResults = `<b>${item.properties.name}</b>. <br /> ${item.properties.address}. <br /> ${item.properties.city},
+                                ${item.properties.state}.<br /> <a href=http://${item.properties.website}>${item.properties.website}</a>`;
             setTimeout(() => {
                 if(searchQuery.length > 2) {
                     map.flyTo(item.geometry.mapCoordinates, 10)

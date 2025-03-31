@@ -4,6 +4,7 @@ import { useMap } from 'react-leaflet';
 const GeoLocateMapCenter = () => {
     const map = useMap();
 
+    // TODO: remember selection and don't re-prompt after refresh
     useEffect(() => { 
         // get user device location: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition
         let currentCoordinates = []; 

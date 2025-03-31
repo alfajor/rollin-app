@@ -1,10 +1,13 @@
-import Map from './components/map';
+import { MapProvider } from './components/map/map-context';
+import Map from './components/map/map';
 import Search from './components/search';
 import styled from 'styled-components';
 
 const App = () => {
   return (
     <>
+    {/* wrap in map provider context for cross component props access */}
+    <MapProvider> 
       <MainContainer>  
         <MapWrapper>
           <ContentWrapper>
@@ -20,7 +23,9 @@ const App = () => {
             
           <Map />
         </MapWrapper>
+       
       </MainContainer>
+    </MapProvider>
     </>
   )
 }

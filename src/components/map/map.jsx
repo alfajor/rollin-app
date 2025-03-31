@@ -1,14 +1,18 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
-import { getJsonData, getTestJsonData } from "../../utils/fetch-data";
-import MapSearch from "./mapSearch";
-import GeoLocateMapCenter from './atoms/geolocate';
+import { getJsonData, getTestJsonData } from "../../../utils/fetch-data";
+import MapSearch from "./map-search";
+import { useMapContext } from "./map-context";
+import GeoLocateMapCenter from '../atoms/geolocate';
 import styled from 'styled-components';
 
 const Map = () => {    
     const [mapData, setMapData] = useState([]);
+
+    const { setMap } = useMapContext();
+    const mapRef = useRef(null)
 
     const customMarkerIcon = new L.Icon({
         iconUrl: '/icons/belt.png',
@@ -18,19 +22,25 @@ const Map = () => {
     });
 
     const renderMapJson = async () => {
-        //const geoJson = await getJsonData(); // API data 
-        const geoJson = await getTestJsonData(); // test local data
-        setMapData(geoJson.academies) // test data: geoJson.academies / api data: geojson
+        const geoJson = await getTestJsonData(); 
+        setMapData(geoJson.academies) 
     }
 
     useEffect(() => {
+        // update map context to use map instance
+        if (mapRef.current) {
+            setMap(mapRef.current);
+        }
         renderMapJson()
     }, []);
 
     // default map center & request user location
     return (
         <>
-            <StyledMapContainer center={[50, -121]} zoom={7} scrollWheelZoom={true}>
+            <StyledMapContainer center={[50, -121]} zoom={7} scrollWheelZoom={true} whenReady={(mapInstance) => {
+                mapRef.current = mapInstance;
+                setMap(mapInstance);
+            }}>
                 <TileLayer
                     maxZoom={15}
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -48,8 +58,8 @@ const Map = () => {
                                             address: feature.properties.address,
                                             website: feature.properties.website
                                         }
-                                    const formattedResults = `${results.name}. ${results.city}, ${results.state}
-                                                              ${results.address}. ${results.website}`; 
+                                    const formattedResults = `<b>${results.name}</b>. <br /> ${results.address}. <br /> ${results.city},
+                                                              ${results.state}.<br /> <a href=http://${results.website}>${results.website}</a>`; 
                                     layer.bindPopup(formattedResults)
                             }} pointToLayer={(feature, latlng) => { 
                                 // set custom icon
