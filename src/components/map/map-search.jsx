@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useMap } from 'react-leaflet';
 import styled from 'styled-components';
+import { globalStyles } from '../../../utils/global-styles';
 
 const MapSearch = ({dataList}) => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -85,7 +86,7 @@ const SearchContainer = styled.div`
 `;
 
 const StyledInput = styled.input`
-    border: 1px solid #222;
+    border: 1px solid ${globalStyles.colors.caribbean_ocean};
     border-radius: 5px;
     background: transparent;
     padding: 8px 5px;

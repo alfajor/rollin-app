@@ -76,7 +76,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": 4,
+                "id": 5,
                 "name": "Corvus Jiu Jitsu",
                 "city": "Salt Lake City",
                 "state": "Utah",
@@ -94,7 +94,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": 4,
+                "id": 6,
                 "name": "Combat Arts Strength & Conditioning",
                 "city": "Salt Lake City",
                 "state": "Utah",
@@ -112,7 +112,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": 4,
+                "id": 7,
                 "name": "Bernales Institute of Martial Arts",
                 "city": "Salt Lake City",
                 "state": "Utah",
@@ -127,12 +127,102 @@
                     "mapCoordinates": [40.721778362394, -111.887178156472]
             }
         },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8,
+                "name": "Sierra MMA",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "7942 South 1300 East",
+                "website": "sierramma.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.855455, 40.607437],
+                    "mapCoordinates": [40.607437, -111.855455]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9,
+                "name": "Gracie Barra - Salt Lake",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "66 East 3750 South",
+                "website": "gbslc.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.889335, 40.688966],
+                    "mapCoordinates": [40.688966, -111.889335]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10,
+                "name": "Crown BJJ",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "14719 South 855 West",
+                "website": "crownbjj.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.915691, 40.483193],
+                    "mapCoordinates": [40.483193, -111.915691]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "name": "Park City BJJ",
+                "city": "Park City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "6430 North Buisness Park Loop Rd Unit D",
+                "website": "parkcitybjj.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.487577, 40.723289],
+                    "mapCoordinates": [40.723289, -111.487577]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
+                "name": "Fight City",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "2394 South West Temple",
+                "website": "fightcityslc.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.894377, 40.718954],
+                    "mapCoordinates": [40.718954, -111.894377]
+            }
+        },
 
 
         {
             "type": "Feature",
             "properties": {
-                "id": 2,
+                "id": null,
                 "name": "Not a Dojo - TEST",
                 "city": "Boise",
                 "state": "Idaho",
@@ -150,7 +240,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": 4,
+                "id": null,
                 "name": "Wrastlin' Hole - TEST",
                 "city": "Seattle",
                 "state": "Washington",

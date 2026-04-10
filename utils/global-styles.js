@@ -1,6 +1,7 @@
 export const globalStyles = {
     colors: {
-        primary_light: '#fff'
+        primary_light: '#fff',
+        caribbean_ocean: '#34EDAF'
     },
     breakpoints: {
         xs: '450px',

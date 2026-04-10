@@ -31,10 +31,12 @@ const Search = () => {
             const filteredResults = apiData.filter((item) => {
                 return Object.values(item.properties).join(', ').toLowerCase().includes(searchQuery.toLowerCase())
             });
+            // auto sort alphabetically
+            filteredResults.sort((a, b) => a.properties.name.localeCompare(b.properties.name))
             setQueryResults(filteredResults);  
         }
     }  
-    // fly to search results on map
+    // fly to search results on map & open popup
     const zoomToResults = (item) => {
         const mapPopupDetails = `<b>${item.properties.name}</b>. <br /> ${item.properties.address}. <br /> ${item.properties.city},
                                 ${item.properties.state}.<br /> <a href=http://${item.properties.website}>${item.properties.website}</a>`;
@@ -48,10 +50,24 @@ const Search = () => {
         renderApiJson()
     }, [searchQuery])
 
+    const totalResults = searchQuery.length > 2 ? <p>{queryResults.length} result(s) found</p> : null;
+
+    const reverseAlphaSort = () => {
+        queryResults.sort((a, b) => b.properties.name.localeCompare(a.properties.name))
+    }
+
     return (
         <>
-            <SearchInput type="text" placeholder='Search by name, city, or state' onChange={searchHandler} onKeyDown={searchHandler} />
+            <SearchInput type="text" placeholder='Search by name, city, state/provence, or country' onChange={searchHandler} onKeyDown={searchHandler} />
             <ResultsContainer>
+                {totalResults}
+                {/* TODO: reverse sort */}
+                {searchQuery.length > 2 && 
+                    <div>
+                        <span>Sort by:</span>
+                    </div>
+                }
+
                 {searchQuery.length > 2 ?
                     queryResults.map((item, idx) => {
                         const resultsName = `${item.properties.name}`; 
@@ -59,11 +75,13 @@ const Search = () => {
                         const resultsContact = `${item.properties.website}`;
                         // TODO: see more on results - paginate?
                         return (
+                            <>
                             <ResultsContent key={idx} onClick={() => zoomToResults(item)}>
                                 <h4>{resultsName}</h4>
                                 <span>{resultsLocation}</span>
                                 <p><a href={`http://${resultsContact}`} target="_blank">{resultsContact}</a></p>
                             </ResultsContent>
+                            </>
                         )
                     })
                 : null }
@@ -73,23 +91,26 @@ const Search = () => {
 }
 
 const SearchInput = styled.input`
-    border: 1px solid ${globalStyles.colors.primary_light};
+    border: 1px solid ${globalStyles.colors.caribbean_ocean};
     border-radius: 5px;
     background: transparent;
     padding: 12px 6px;
     color: ${globalStyles.colors.primary_light};;
-    width: 50%;
+    width: 60%;
 `;
 
 const ResultsContainer = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 20px;
     line-height: 1.4;
     overflow-y: scroll;
-    width: 50%;
+    width: 90%;
 `;
 
 const ResultsContent = styled.div`
     border: 1px solid #e1e1e1;
+    border-radius: 5px;
     padding: 0 10px;
     cursor: pointer;  
 `;

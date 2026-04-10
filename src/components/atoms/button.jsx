@@ -11,7 +11,6 @@ const Button = ({buttonText, buttonLink, textColor, backgroundColor, borderColor
 }
 
 const StyledButton = styled.div`
-   
     padding: 6px 25px;
     text-align: center;
     cursor: pointer;
