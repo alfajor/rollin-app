@@ -7,18 +7,19 @@ import MapSearch from "./map-search";
 import { useMapContext } from "./map-context";
 import GeoLocateMapCenter from '../atoms/geolocate';
 import styled from 'styled-components';
+import { globalStyles } from "../../../utils/global-styles";
 
-const Map = () => {    
+const Map = ({mapSize}) => {    
     const [mapData, setMapData] = useState([]);
 
     const { setMap } = useMapContext();
     const mapRef = useRef(null)
 
     const customMarkerIcon = new L.Icon({
-        iconUrl: '/icons/belt.png',
-        iconRetinaUrl: '/icons/belt.png',
+        iconUrl: '/icons/bjj-belt.png',
+        iconRetinaUrl: '/icons/bjj-belt.png',
         popupAnchor: [-0, -0],
-        iconSize: [32,32],     
+        iconSize: [52,52],     
     });
 
     const renderMapJson = async () => {
@@ -37,7 +38,7 @@ const Map = () => {
     // default map center & request user location
     return (
         <>
-            <StyledMapContainer center={[50, -121]} zoom={7} scrollWheelZoom={true} whenReady={(mapInstance) => {
+            <StyledMapContainer center={[50, -121]} zoom={7} scrollWheelZoom={true} mapSize={mapSize} whenReady={(mapInstance) => {
                 mapRef.current = mapInstance;
                 setMap(mapInstance);
             }}>
@@ -102,8 +103,12 @@ const Map = () => {
 }
 
 const StyledMapContainer = styled(MapContainer)`
-    width: 60%;
+    width: ${(props) => props.mapSize ? props.mapSize : '60%'};
     height: 100vh;
+
+    @media screen and (max-width: ${globalStyles.breakpoints.md}) {
+        width: 100%;
+    }
 `;
 
 export default Map;

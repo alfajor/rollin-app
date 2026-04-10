@@ -5,79 +5,153 @@
           "type": "Feature",
           "properties": {
               "id": 1,
-              "name": "McDojo Smash",
+              "name": "Unified BJJ",
               "city": "Salt Lake City",
               "state": "Utah",
               "stateAbbr": "UT",
               "country": "USA",
-              "address": "123 main street",
-              "website": "mcdojosmash.com"
+              "address": "1098 West South Jordan Parkway #107 & #108",
+              "website": "unifiedbjj.com"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-111.891045, 40.760780],
-                "mapCoordinates": [40.760780, -111.891045]
+                "coordinates": [-111.922100, 40.561164],
+                "mapCoordinates": [40.561164, -111.922100]
             }
         },
         {
           "type": "Feature",
           "properties": {
               "id": 2,
-              "name": "Not a Dojo",
-              "city": "Boise",
-              "state": "Idaho",
-              "stateAbbr": "ID",
+              "name": "Renzo Gracie Salt Lake",
+              "city": "Salt Lake City",
+              "state": "Utah",
+              "stateAbbr": "UT",
               "country": "USA",
-              "address": "456 everyday street",
-              "website": "mcdojosmash.com"
+              "address": "615 Simpson Ave",
+              "website": "renzogracieslc.com"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-116.202316, 43.615021],
-                "mapCoordinates": [43.615021, -116.202316]
+                "coordinates": [-111.873377, 40.722292],
+                "mapCoordinates": [40.722292, -111.873377]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": 3,
-                "name": "New Dojo",
+                "name": "First BJJ",
                 "city": "Salt Lake City",
                 "state": "Utah",
                 "stateAbbr": "UT",
                 "country": "USA",
-                "address": "789 kick street",
-                "website": "anothermasterken.com"
+                "address": "5508 Van Winkle",
+                "website": "firstbjj.com"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": [-111.897278, 40.569710],
-                    "mapCoordinates": [40.569710, -111.897278]
+                    "coordinates": [-111.849759, 40.651589],
+                    "mapCoordinates": [40.651589, -111.849759]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": 4,
-                "name": "Yet Another Dojo",
+                "name": "Marangoni BJJ",
                 "city": "Salt Lake City",
                 "state": "Utah",
                 "stateAbbr": "UT",
                 "country": "USA",
-                "address": "2000 roundhouse corner",
-                "website": "punchkickpunch.org"
+                "address": "480 East 6th Avenue",
+                "website": "bjjsaltlake.com"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": [-111.810516, 40.616310],
-                    "mapCoordinates": [40.616310, -111.810516]
+                    "coordinates": [-111.874910, 40.776058],
+                    "mapCoordinates": [40.776058, -111.874910]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": 4,
-                "name": "Wrastlin' Hole",
+                "name": "Corvus Jiu Jitsu",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "7817 South Highland Drive Suite A",
+                "website": "corvusjj.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.8320286, 40.6091616],
+                    "mapCoordinates": [40.6091616, -111.8320286]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "Combat Arts Strength & Conditioning",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "370 South 300 East",
+                "website": "combatartssc.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.8828794, 40.7609861],
+                    "mapCoordinates": [40.7609861, -111.8828794]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "Bernales Institute of Martial Arts",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "2257 State St",
+                "website": "bernalesinstitute.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.887178156472, 40.721778362394],
+                    "mapCoordinates": [40.721778362394, -111.887178156472]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "name": "Not a Dojo - TEST",
+                "city": "Boise",
+                "state": "Idaho",
+                "stateAbbr": "ID",
+                "country": "USA",
+                "address": "456 everyday street",
+                "website": "mcdojosmash.com"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [-116.202316, 43.615021],
+                  "mapCoordinates": [43.615021, -116.202316]
+              }
+          },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "Wrastlin' Hole - TEST",
                 "city": "Seattle",
                 "state": "Washington",
                 "stateAbbr": "WA",
