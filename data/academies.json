@@ -1,79 +1,25 @@
-[
     {
-        "name": "Gracie Barra Salt Lake",
-        "address": "66 E 3750 S",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "Absolute MMA",
-        "address": "1338 W 7800 S",
-        "city": "West Jordan",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "Gracie Jiu Jitsu Salt Lake",
-        "address": "2174 S Main St",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "Caio Terra BJJ",
-        "address": "1274 E 3300 S",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "10th Planet Salt Lake",
-        "address": "215 S 1000 E",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "Gracie Barra West Jordan",
-        "address": "8018 Welby Park Dr #2",
-        "city": "West Jordan",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "The Front Jiu Jitsu Collective",
-        "address": "4140 S Main St",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "Fight City SLC",
-        "address": "2394 S W Temple St",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "The Pit SLC",
-        "address": "1171 Richards St",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "",
-        "address": "",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    },
-    {
-        "name": "",
-        "address": "",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "website": ""
-    }
-]
+        "academies": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "name": "",
+                "city": "",
+                "state": "",
+                "stateAbbr": "",
+                "country": "USA",
+                "address": "",
+                "website": ""
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [],
+                    "mapCoordinates": []
+            }
+        }
+    ]
+}
+    
+    
+    

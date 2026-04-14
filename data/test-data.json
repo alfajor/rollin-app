@@ -53,7 +53,7 @@
                     "type": "Point",
                     "coordinates": [-111.849759, 40.651589],
                     "mapCoordinates": [40.651589, -111.849759]
-            }
+                }
         },
         {
             "type": "Feature",
@@ -71,7 +71,7 @@
                     "type": "Point",
                     "coordinates": [-111.874910, 40.776058],
                     "mapCoordinates": [40.776058, -111.874910]
-            }
+                }
         },
         {
             "type": "Feature",
@@ -89,7 +89,7 @@
                     "type": "Point",
                     "coordinates": [-111.8320286, 40.6091616],
                     "mapCoordinates": [40.6091616, -111.8320286]
-            }
+                }
         },
         {
             "type": "Feature",
@@ -107,7 +107,7 @@
                     "type": "Point",
                     "coordinates": [-111.8828794, 40.7609861],
                     "mapCoordinates": [40.7609861, -111.8828794]
-            }
+                }
         },
         {
             "type": "Feature",
@@ -143,7 +143,7 @@
                     "type": "Point",
                     "coordinates": [-111.855455, 40.607437],
                     "mapCoordinates": [40.607437, -111.855455]
-            }
+                }
         },
         {
             "type": "Feature",
@@ -161,7 +161,7 @@
                     "type": "Point",
                     "coordinates": [-111.889335, 40.688966],
                     "mapCoordinates": [40.688966, -111.889335]
-            }
+                }
         },
         {
             "type": "Feature",
@@ -179,12 +179,30 @@
                     "type": "Point",
                     "coordinates": [-111.915691, 40.483193],
                     "mapCoordinates": [40.483193, -111.915691]
-            }
+                }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": 11,
+                "name": "10th Planet - Salt Lake",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "stateAbbr": "UT",
+                "country": "USA",
+                "address": "215 South 1000 East",
+                "website": "10thplanetslc.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-111.8619127, 40.7644244],
+                    "mapCoordinates": [40.7644244, -111.8619127]
+                }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
                 "name": "Park City BJJ",
                 "city": "Park City",
                 "state": "Utah",
@@ -197,12 +215,12 @@
                     "type": "Point",
                     "coordinates": [-111.487577, 40.723289],
                     "mapCoordinates": [40.723289, -111.487577]
-            }
+                }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": 12,
+                "id": 13,
                 "name": "Fight City",
                 "city": "Salt Lake City",
                 "state": "Utah",
@@ -215,9 +233,119 @@
                     "type": "Point",
                     "coordinates": [-111.894377, 40.718954],
                     "mapCoordinates": [40.718954, -111.894377]
-            }
+                }
         },
 
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 14,
+                "name": "Zenith Jiu Jitsu",
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "stateAbbr": "NV",
+                "country": "USA",
+                "address": "1246 South Rainbow Blvd",
+                "website": "drysdalejiujitsu.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-115.243378, 36.156301],
+                    "mapCoordinates": [36.156301, -115.243378]
+                }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 15,
+                "name": "Cobrinha BJJ",
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "stateAbbr": "NV",
+                "country": "USA",
+                "address": "7310 Smoke Ranch Rd Suite O",
+                "website": "cobrinhabjjlasvegas.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-115.252203, 36.204065],
+                    "mapCoordinates": [36.204065, -115.252203]
+                }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 16,
+                "name": "Gracie Jiu Jitsu - Las Vegas",
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "stateAbbr": "NV",
+                "country": "USA",
+                "address": "5243 West Charleston Blvd #3",
+                "website": "gracielasvegas.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-115.212939, 36.158266],
+                    "mapCoordinates": [36.158266, -115.212939]
+                }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 17,
+                "name": "10th Planet - Las Vegas",
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "stateAbbr": "NV",
+                "country": "USA",
+                "address": "1225 West Warm Springs Rd. #140",
+                "website": "10thplanetlasvegas.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-115.172543, 36.056808],
+                    "mapCoordinates": [36.056808, -115.172543]
+                }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 18,
+                "name": "Syndicate MMA",
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "stateAbbr": "NV",
+                "country": "USA",
+                "address": "6315 South Rainbow Blvd Suite 104",
+                "website": "syndicatemma.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-115.243433, 36.0737742],
+                    "mapCoordinates": [36.0737742, -115.243433]
+                }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 19,
+                "name": "Rilion Gracie BJJ - Denver",
+                "city": "Denver",
+                "state": "Colorado",
+                "stateAbbr": "CO",
+                "country": "USA",
+                "address": "3900 South Mariposa St",
+                "website": "riliongraciedenver.com"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-105.0025477, 39.6455655],
+                    "mapCoordinates": [39.6455655, -105.0025477]
+                }
+        },
+        
 
         {
             "type": "Feature",
@@ -253,7 +381,7 @@
                     "type": "Point",
                     "coordinates": [-122.332069, 47.606209],
                     "mapCoordinates": [47.606209, -122.332069]
-            }
+                }
         }
     ]
 }

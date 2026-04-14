@@ -50,7 +50,7 @@ const Search = () => {
         renderApiJson()
     }, [searchQuery])
 
-    const totalResults = searchQuery.length > 2 ? <p>{queryResults.length} result(s) found</p> : null;
+    const totalResults = searchQuery.length > 2 ? <p>{queryResults.length} gym(s) found</p> : null;
 
     const reverseAlphaSort = () => {
         queryResults.sort((a, b) => b.properties.name.localeCompare(a.properties.name))
@@ -59,15 +59,16 @@ const Search = () => {
     return (
         <>
             <SearchInput type="text" placeholder='Search by name, city, state/provence, or country' onChange={searchHandler} onKeyDown={searchHandler} />
+             <ResultsSortWrapper>
+                    <TotalResults>{totalResults}</TotalResults>
+                    {/* TODO: reverse sort */}
+                    {searchQuery.length > 2 && 
+                        <div>
+                            <span>Sort by:</span>
+                        </div>
+                    }
+                </ResultsSortWrapper>
             <ResultsContainer>
-                {totalResults}
-                {/* TODO: reverse sort */}
-                {searchQuery.length > 2 && 
-                    <div>
-                        <span>Sort by:</span>
-                    </div>
-                }
-
                 {searchQuery.length > 2 ?
                     queryResults.map((item, idx) => {
                         const resultsName = `${item.properties.name}`; 
@@ -106,6 +107,17 @@ const ResultsContainer = styled.div`
     line-height: 1.4;
     overflow-y: scroll;
     width: 90%;
+`;
+
+const ResultsSortWrapper = styled.div`
+  display: flex;  
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+`;
+
+const TotalResults = styled.span`
+  color: ${globalStyles.colors.caribbean_ocean};
 `;
 
 const ResultsContent = styled.div`
