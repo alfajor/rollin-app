@@ -1,25 +1,4876 @@
+{
+  "academies": [
     {
-        "academies": [
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 1,
-                "name": "",
-                "city": "",
-                "state": "",
-                "stateAbbr": "",
-                "country": "USA",
-                "address": "",
-                "website": ""
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [],
-                    "mapCoordinates": []
-            }
-        }
-    ]
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Unified BJJ",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "1098 West South Jordan Parkway #107 & #108",
+        "website": "unifiedbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9221,
+          40.561164
+        ],
+        "mapCoordinates": [
+          40.561164,
+          -111.9221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Renzo Gracie Salt Lake",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "615 Simpson Ave",
+        "website": "renzogracieslc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.873377,
+          40.722292
+        ],
+        "mapCoordinates": [
+          40.722292,
+          -111.873377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "First BJJ",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "5508 Van Winkle",
+        "website": "firstbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.849759,
+          40.651589
+        ],
+        "mapCoordinates": [
+          40.651589,
+          -111.849759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Marangoni BJJ",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "480 East 6th Avenue",
+        "website": "bjjsaltlake.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87491,
+          40.776058
+        ],
+        "mapCoordinates": [
+          40.776058,
+          -111.87491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Corvus Jiu Jitsu",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "7817 South Highland Drive Suite A",
+        "website": "corvusjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8320286,
+          40.6091616
+        ],
+        "mapCoordinates": [
+          40.6091616,
+          -111.8320286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Combat Arts Strength & Conditioning",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "370 South 300 East",
+        "website": "combatartssc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8828794,
+          40.7609861
+        ],
+        "mapCoordinates": [
+          40.7609861,
+          -111.8828794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Bernales Institute of Martial Arts",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "2257 State St",
+        "website": "bernalesinstitute.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.887178156472,
+          40.721778362394
+        ],
+        "mapCoordinates": [
+          40.721778362394,
+          -111.887178156472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Sierra MMA",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "7942 South 1300 East",
+        "website": "sierramma.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.855455,
+          40.607437
+        ],
+        "mapCoordinates": [
+          40.607437,
+          -111.855455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Gracie Barra - Salt Lake",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "66 East 3750 South",
+        "website": "gbslc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.889335,
+          40.688966
+        ],
+        "mapCoordinates": [
+          40.688966,
+          -111.889335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Crown BJJ",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "14719 South 855 West",
+        "website": "crownbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.915691,
+          40.483193
+        ],
+        "mapCoordinates": [
+          40.483193,
+          -111.915691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Park City BJJ",
+        "city": "Park City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "6430 North Buisness Park Loop Rd Unit D",
+        "website": "parkcitybjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.487577,
+          40.723289
+        ],
+        "mapCoordinates": [
+          40.723289,
+          -111.487577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Fight City",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "2394 South West Temple",
+        "website": "fightcityslc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.894377,
+          40.718954
+        ],
+        "mapCoordinates": [
+          40.718954,
+          -111.894377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9366,
+        "name": "014RBJJ",
+        "city": "Rio de Janeiro",
+        "state": "Rio de Janeiro",
+        "stateAbbr": "RJ",
+        "country": "BRA",
+        "address": "Rua Santa Gentillis 40, Paci\u00eancia",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.51,
+          -22.93
+        ],
+        "mapCoordinates": [
+          -22.93,
+          -43.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9367,
+        "name": "026 Indio BJJ",
+        "city": "Rio de Janeiro",
+        "state": "Rio de Janeiro",
+        "stateAbbr": "RJ",
+        "country": "BRA",
+        "address": "Ministro Ary Franco 500",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.27,
+          -22.89
+        ],
+        "mapCoordinates": [
+          -22.89,
+          -43.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15206,
+        "name": "082 Fight Club Macei\u00f3",
+        "city": "Macei\u00f3",
+        "state": "Alagoas",
+        "stateAbbr": "AL",
+        "country": "BRA",
+        "address": "R. Prof. Sandoval Arroxelas, 830d, Ponta Verde",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6992873,
+          -9.6589164
+        ],
+        "mapCoordinates": [
+          -9.6589164,
+          -35.6992873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21097,
+        "name": "092 BJJ Academy Midland",
+        "city": "Midland",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "",
+        "website": "midlandbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0779,
+          31.9973
+        ],
+        "mapCoordinates": [
+          31.9973,
+          -102.0779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15754,
+        "name": "092 Brazilian Jiu-Jitsu Academy Midland",
+        "city": "Midland",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "",
+        "website": "092jiujitsuacademy.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0103767,
+          31.83688
+        ],
+        "mapCoordinates": [
+          31.83688,
+          -102.0103767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2195,
+        "name": "1-Up Brazilian Jiu Jitsu Cleveland",
+        "city": "Cleveland",
+        "state": "Ohio",
+        "stateAbbr": "OH",
+        "country": "USA",
+        "address": "5139 W 140th St, Cleveland, OH 44135",
+        "website": "1upjiujitsu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7902201,
+          41.4324174
+        ],
+        "mapCoordinates": [
+          41.4324174,
+          -81.7902201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3850,
+        "name": "1-Up Brazilian Jiu Jitsu Cleveland OH",
+        "city": "Cleveland",
+        "state": "Ohio",
+        "stateAbbr": "OH",
+        "country": "USA",
+        "address": "5139 W 140th St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7897709,
+          41.4682272
+        ],
+        "mapCoordinates": [
+          41.4682272,
+          -81.7897709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5942,
+        "name": "1-Up Jiu Jitsu",
+        "city": "Brook Park",
+        "state": "Ohio",
+        "stateAbbr": "OH",
+        "country": "USA",
+        "address": "",
+        "website": "1upjiujitsu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8057,
+          41.3973
+        ],
+        "mapCoordinates": [
+          41.3973,
+          -81.8057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14915,
+        "name": "1-Up Jiu Jitsu Cleveland",
+        "city": "Brook Park",
+        "state": "Ohio",
+        "stateAbbr": "OH",
+        "country": "USA",
+        "address": "",
+        "website": "1upjiujitsu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.804,
+          41.444
+        ],
+        "mapCoordinates": [
+          41.444,
+          -81.804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10177,
+        "name": "101 Academy Jiu Jitsu Calgary",
+        "city": "Calgary",
+        "state": "Alberta",
+        "stateAbbr": "AB",
+        "country": "CAN",
+        "address": "",
+        "website": "101academy.ca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.06748889549971,
+          51.052477032443804
+        ],
+        "mapCoordinates": [
+          51.052477032443804,
+          -114.06748889549971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1366,
+        "name": "10th Planet Albuquerque",
+        "city": "Albuquerque",
+        "state": "New Mexico",
+        "stateAbbr": "NM",
+        "country": "USA",
+        "address": "2801 Eubank Blvd NE",
+        "website": "10thplanetabq.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64,
+          35.09
+        ],
+        "mapCoordinates": [
+          35.09,
+          -106.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5011,
+        "name": "10th Planet Amsterdam",
+        "city": "Amsterdam",
+        "state": "",
+        "stateAbbr": "",
+        "country": "NL",
+        "address": "Amsterdam",
+        "website": "10thplanetjj.amsterdam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9041,
+          52.3676
+        ],
+        "mapCoordinates": [
+          52.3676,
+          4.9041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12274,
+        "name": "10th Planet Anchorage",
+        "city": "Anchorage",
+        "state": "Alaska",
+        "stateAbbr": "AK",
+        "country": "USA",
+        "address": "Anchorage, AK",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ],
+        "mapCoordinates": [
+          61.2181,
+          -149.9003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1000,
+        "name": "10th Planet Atlanta",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "stateAbbr": "GA",
+        "country": "USA",
+        "address": "2218 15th St NW",
+        "website": "10thplanetatlanta.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3963,
+          33.8059
+        ],
+        "mapCoordinates": [
+          33.8059,
+          -84.3963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1018,
+        "name": "10th Planet Austin",
+        "city": "Austin",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "4906 Burnet Rd",
+        "website": "10thplanetaustin.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ],
+        "mapCoordinates": [
+          30.2672,
+          -97.7431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1294,
+        "name": "10th Planet Austin North",
+        "city": "Austin",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "10001 Stonelake Blvd",
+        "website": "10thplanetaustinnorth.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72,
+          30.38
+        ],
+        "mapCoordinates": [
+          30.38,
+          -97.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2895,
+        "name": "10th Planet BJJ Allentown",
+        "city": "Allentown",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "269 Cetronia Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5571506,
+          40.5820362
+        ],
+        "mapCoordinates": [
+          40.5820362,
+          -75.5571506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2767,
+        "name": "10th Planet BJJ Grand Rapids",
+        "city": "Grand Rapids",
+        "state": "Michigan",
+        "stateAbbr": "MI",
+        "country": "USA",
+        "address": "6798 Old 28th St SE",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6678639,
+          42.9632425
+        ],
+        "mapCoordinates": [
+          42.9632425,
+          -85.6678639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2803,
+        "name": "10th Planet BJJ Greenville",
+        "city": "Taylors",
+        "state": "South Carolina",
+        "stateAbbr": "SC",
+        "country": "USA",
+        "address": "2801 Wade Hampton Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3375688,
+          34.9016372
+        ],
+        "mapCoordinates": [
+          34.9016372,
+          -82.3375688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2839,
+        "name": "10th Planet BJJ Huntsville",
+        "city": "Huntsville",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "2604 Mirabeau Dr",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5859011,
+          34.729847
+        ],
+        "mapCoordinates": [
+          34.729847,
+          -86.5859011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8844,
+        "name": "10th Planet BJJ NYC",
+        "city": "New York City",
+        "state": "New York",
+        "stateAbbr": "NY",
+        "country": "USA",
+        "address": "35 West 43rd St 4th Floor",
+        "website": "10thplanetjjnyc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.7128
+        ],
+        "mapCoordinates": [
+          40.7128,
+          -74.006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2896,
+        "name": "10th Planet BJJ Nazareth",
+        "city": "Nazareth",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "859 Nazareth Pike",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3158124,
+          40.7304937
+        ],
+        "mapCoordinates": [
+          40.7304937,
+          -75.3158124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3925,
+        "name": "10th Planet BJJ Round Rock TX",
+        "city": "Round Rock",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "3810 Gattis School Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6294737,
+          30.4965899
+        ],
+        "mapCoordinates": [
+          30.4965899,
+          -97.6294737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9284,
+        "name": "10th Planet BJJ Salt Lake City",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "stateAbbr": "UT",
+        "country": "USA",
+        "address": "215 South 1000 E",
+        "website": "10thplanetslc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86,
+          40.76
+        ],
+        "mapCoordinates": [
+          40.76,
+          -111.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2586,
+        "name": "10th Planet BJJ Santa Fe",
+        "city": "Santa Fe",
+        "state": "New Mexico",
+        "stateAbbr": "NM",
+        "country": "USA",
+        "address": "1221 Flagman Way",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.9619715,
+          35.674336
+        ],
+        "mapCoordinates": [
+          35.674336,
+          -105.9619715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2407,
+        "name": "10th Planet BJJ Tucson",
+        "city": "Tucson",
+        "state": "Arizona",
+        "stateAbbr": "AZ",
+        "country": "USA",
+        "address": "4500 East Speedway Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8972864,
+          32.2355972
+        ],
+        "mapCoordinates": [
+          32.2355972,
+          -110.8972864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15748,
+        "name": "10th Planet Beaumont Jiu-Jitsu",
+        "city": "Beaumont",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "",
+        "website": "10thplanetbeaumontjiujitsumma.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.0984277,
+          30.0829344
+        ],
+        "mapCoordinates": [
+          30.0829344,
+          -94.0984277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15601,
+        "name": "10th Planet Beirut",
+        "city": "Beirut",
+        "state": "",
+        "stateAbbr": "",
+        "country": "LB",
+        "address": "",
+        "website": "10thplanetbeirut.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5592,
+          33.9003
+        ],
+        "mapCoordinates": [
+          33.9003,
+          35.5592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11432,
+        "name": "10th Planet Belgrade",
+        "city": "Belgrade",
+        "state": "",
+        "stateAbbr": "",
+        "country": "RS",
+        "address": "Gavrila Principa 46",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4633,
+          44.8176
+        ],
+        "mapCoordinates": [
+          44.8176,
+          20.4633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5363,
+        "name": "10th Planet Bergen",
+        "city": "Bergen",
+        "state": "",
+        "stateAbbr": "",
+        "country": "NO",
+        "address": "Nordneshallen, Bergen, Norway",
+        "website": "10pbergen.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3221,
+          60.3913
+        ],
+        "mapCoordinates": [
+          60.3913,
+          5.3221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2497,
+        "name": "10th Planet Birmingham",
+        "city": "Birmingham",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "2401 6th Ave S",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.794956,
+          33.509628
+        ],
+        "mapCoordinates": [
+          33.509628,
+          -86.794956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3740,
+        "name": "10th Planet Birmingham AL Crestwood",
+        "city": "Birmingham",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "7001 Crestwood Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7327593,
+          33.5290635
+        ],
+        "mapCoordinates": [
+          33.5290635,
+          -86.7327593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1348,
+        "name": "10th Planet Boise",
+        "city": "Boise",
+        "state": "Idaho",
+        "stateAbbr": "ID",
+        "country": "USA",
+        "address": "601 W Myrtle St",
+        "website": "10thplanetboise.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.195,
+          43.605
+        ],
+        "mapCoordinates": [
+          43.605,
+          -116.195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18030,
+        "name": "10th Planet Boston",
+        "city": "Boston",
+        "state": "Massachusetts",
+        "stateAbbr": "MA",
+        "country": "USA",
+        "address": "South Boston",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0589,
+          42.3601
+        ],
+        "mapCoordinates": [
+          42.3601,
+          -71.0589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4530,
+        "name": "10th Planet Calgary",
+        "city": "Calgary",
+        "state": "Alberta",
+        "stateAbbr": "AB",
+        "country": "CAN",
+        "address": "Calgary",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0719,
+          51.0447
+        ],
+        "mapCoordinates": [
+          51.0447,
+          -114.0719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13798,
+        "name": "10th Planet Canada Toronto",
+        "city": "Toronto",
+        "state": "Ontario",
+        "stateAbbr": "ON",
+        "country": "CAN",
+        "address": "",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3832,
+          43.6532
+        ],
+        "mapCoordinates": [
+          43.6532,
+          -79.3832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13799,
+        "name": "10th Planet Canada Vancouver",
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "stateAbbr": "BC",
+        "country": "CAN",
+        "address": "",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1207,
+          49.2827
+        ],
+        "mapCoordinates": [
+          49.2827,
+          -123.1207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20919,
+        "name": "10th Planet Cancun",
+        "city": "Canc\u00fan",
+        "state": "Quintana Roo",
+        "stateAbbr": "ROO",
+        "country": "MEX",
+        "address": "",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8515,
+          21.1619
+        ],
+        "mapCoordinates": [
+          21.1619,
+          -86.8515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1048,
+        "name": "10th Planet Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "stateAbbr": "NC",
+        "country": "USA",
+        "address": "3500 Latrobe Dr",
+        "website": "10thplanetcharlotte.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.779,
+          35.2308
+        ],
+        "mapCoordinates": [
+          35.2308,
+          -80.779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 954,
+        "name": "10th Planet Chicago",
+        "city": "Chicago",
+        "state": "Illinois",
+        "stateAbbr": "IL",
+        "country": "USA",
+        "address": "2840 N Milwaukee Ave",
+        "website": "10thplanetchicago.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.674,
+          41.9078
+        ],
+        "mapCoordinates": [
+          41.9078,
+          -87.674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2125,
+        "name": "10th Planet Columbus",
+        "city": "Columbus",
+        "state": "Ohio",
+        "stateAbbr": "OH",
+        "country": "USA",
+        "address": "5084 N High St, Columbus, OH 43214",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0191825,
+          40.0662712
+        ],
+        "mapCoordinates": [
+          40.0662712,
+          -83.0191825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2757,
+        "name": "10th Planet Corona",
+        "city": "Corona",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "12391 Sampson Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.566444,
+          33.8752945
+        ],
+        "mapCoordinates": [
+          33.8752945,
+          -117.566444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10438,
+        "name": "10th Planet Costa Mesa",
+        "city": "Costa Mesa",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1515 MacArthur Blvd #20",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.90713868082814,
+          33.66609842906803
+        ],
+        "mapCoordinates": [
+          33.66609842906803,
+          -117.90713868082814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 996,
+        "name": "10th Planet Dallas",
+        "city": "Dallas",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "1303 Noel Rd",
+        "website": "10thplanetdallas.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7992,
+          32.8141
+        ],
+        "mapCoordinates": [
+          32.8141,
+          -96.7992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2138,
+        "name": "10th Planet Daly City",
+        "city": "Daly City",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "69 Washington St, Daly City, CA 94014",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4685092,
+          37.6877957
+        ],
+        "mapCoordinates": [
+          37.6877957,
+          -122.4685092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12218,
+        "name": "10th Planet Delaware",
+        "city": "Wilmington",
+        "state": "Delaware",
+        "stateAbbr": "DE",
+        "country": "USA",
+        "address": "Wilmington, DE",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5484,
+          39.7447
+        ],
+        "mapCoordinates": [
+          39.7447,
+          -75.5484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 971,
+        "name": "10th Planet Denver",
+        "city": "Denver",
+        "state": "Colorado",
+        "stateAbbr": "CO",
+        "country": "USA",
+        "address": "800 Lincoln St",
+        "website": "10thplanetdenver.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9882,
+          39.7485
+        ],
+        "mapCoordinates": [
+          39.7485,
+          -104.9882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3573,
+        "name": "10th Planet Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "stateAbbr": "MI",
+        "country": "USA",
+        "address": "110 Michigan Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0485275,
+          42.3317397
+        ],
+        "mapCoordinates": [
+          42.3317397,
+          -83.0485275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1225,
+        "name": "10th Planet Dubai",
+        "city": "Dubai",
+        "state": "",
+        "stateAbbr": "",
+        "country": "ARE",
+        "address": "Motor City",
+        "website": "10thplanetdubai.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2744,
+          25.1972
+        ],
+        "mapCoordinates": [
+          25.1972,
+          55.2744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11422,
+        "name": "10th Planet Dublin",
+        "city": "Dublin",
+        "state": "",
+        "stateAbbr": "",
+        "country": "IRL",
+        "address": "",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2603,
+          53.3498
+        ],
+        "mapCoordinates": [
+          53.3498,
+          -6.2603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7379,
+        "name": "10th Planet East Long Island",
+        "city": "Patchogue",
+        "state": "New York",
+        "stateAbbr": "NY",
+        "country": "USA",
+        "address": "482 Medford Avenue",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0162,
+          40.7648
+        ],
+        "mapCoordinates": [
+          40.7648,
+          -73.0162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5009,
+        "name": "10th Planet El Paso",
+        "city": "El Paso",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "El Paso, TX",
+        "website": "10thplanetelpaso.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4979,
+          31.7545
+        ],
+        "mapCoordinates": [
+          31.7545,
+          -106.4979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2889,
+        "name": "10th Planet Eugene",
+        "city": "Eugene",
+        "state": "Oregon",
+        "stateAbbr": "OR",
+        "country": "USA",
+        "address": "3666 W 11th Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1474175,
+          44.0476144
+        ],
+        "mapCoordinates": [
+          44.0476144,
+          -123.1474175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2677,
+        "name": "10th Planet Fort Worth",
+        "city": "Fort Worth",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "5364 Wedgmont Cir N",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3848166,
+          32.6692335
+        ],
+        "mapCoordinates": [
+          32.6692335,
+          -97.3848166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8009,
+        "name": "10th Planet Georgetown",
+        "city": "Georgetown",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "1523 Northwest Blvd Suite 105/110, Georgetown, TX 78628",
+        "website": "10pgtx.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6779,
+          30.633
+        ],
+        "mapCoordinates": [
+          30.633,
+          -97.6779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5212,
+        "name": "10th Planet Glasgow",
+        "city": "Glasgow",
+        "state": "",
+        "stateAbbr": "",
+        "country": "GBR",
+        "address": "Glasgow, Scotland",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2583,
+          55.8617
+        ],
+        "mapCoordinates": [
+          55.8617,
+          -4.2583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4416,
+        "name": "10th Planet Greenville SC",
+        "city": "Greenville",
+        "state": "South Carolina",
+        "stateAbbr": "SC",
+        "country": "USA",
+        "address": "Greenville",
+        "website": "10thplanetgreenville.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.394,
+          34.8526
+        ],
+        "mapCoordinates": [
+          34.8526,
+          -82.394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6631,
+        "name": "10th Planet Gulf Shores",
+        "city": "Gulf Shores",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "3501 Gulf Shores Pkwy #9",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7,
+          30.248
+        ],
+        "mapCoordinates": [
+          30.248,
+          -87.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8506,
+        "name": "10th Planet Hobart",
+        "city": "Hobart",
+        "state": "TAS",
+        "stateAbbr": "TAS",
+        "country": "AUS",
+        "address": "Hobart, Tasmania, Australia",
+        "website": "10thplanethobart.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3281233,
+          -42.8825088
+        ],
+        "mapCoordinates": [
+          -42.8825088,
+          147.3281233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12142,
+        "name": "10th Planet Hong Kong",
+        "city": "Hong Kong",
+        "state": "",
+        "stateAbbr": "",
+        "country": "HKG",
+        "address": "Hong Kong",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1577,
+          22.2855
+        ],
+        "mapCoordinates": [
+          22.2855,
+          114.1577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18029,
+        "name": "10th Planet Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "Katy",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ],
+        "mapCoordinates": [
+          29.7604,
+          -95.3698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4447,
+        "name": "10th Planet Huntsville",
+        "city": "Huntsville",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "Huntsville",
+        "website": "10thplanethuntsville.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5861,
+          34.7304
+        ],
+        "mapCoordinates": [
+          34.7304,
+          -86.5861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6576,
+        "name": "10th Planet Indianapolis",
+        "city": "Indianapolis",
+        "state": "Indiana",
+        "stateAbbr": "IN",
+        "country": "USA",
+        "address": "1202 N Illinois St",
+        "website": "ccmaf.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.163,
+          39.769
+        ],
+        "mapCoordinates": [
+          39.769,
+          -86.163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7925,
+        "name": "10th Planet Jacksonville",
+        "city": "Jacksonville",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "4849 Dawin Rd #2, Jacksonville, FL 32207",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6557,
+          30.3322
+        ],
+        "mapCoordinates": [
+          30.3322,
+          -81.6557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8558,
+        "name": "10th Planet Jiu Jitsu Amsterdam",
+        "city": "Amsterdam",
+        "state": "NL",
+        "stateAbbr": "NL",
+        "country": "NLD",
+        "address": "Amsterdam, Netherlands",
+        "website": "10thplanetjj.amsterdam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8924534,
+          52.3730796
+        ],
+        "mapCoordinates": [
+          52.3730796,
+          4.8924534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5231,
+        "name": "10th Planet Jiu Jitsu Barcelona",
+        "city": "Barcelona",
+        "state": "",
+        "stateAbbr": "",
+        "country": "ESP",
+        "address": "Barcelona, Spain",
+        "website": "10thplanetbarcelona.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1734,
+          41.3851
+        ],
+        "mapCoordinates": [
+          41.3851,
+          2.1734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6546,
+        "name": "10th Planet Jiu Jitsu Berea",
+        "city": "Berea",
+        "state": "Kentucky",
+        "stateAbbr": "KY",
+        "country": "USA",
+        "address": "140 76 Blvd",
+        "website": "10pberea.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.296,
+          37.569
+        ],
+        "mapCoordinates": [
+          37.569,
+          -84.296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2864,
+        "name": "10th Planet Jiu Jitsu Boulder",
+        "city": "Boulder",
+        "state": "Colorado",
+        "stateAbbr": "CO",
+        "country": "USA",
+        "address": "2750 Glenwood Dr",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2597227,
+          40.0323665
+        ],
+        "mapCoordinates": [
+          40.0323665,
+          -105.2597227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10178,
+        "name": "10th Planet Jiu Jitsu Calgary",
+        "city": "Calgary",
+        "state": "Alberta",
+        "stateAbbr": "AB",
+        "country": "CAN",
+        "address": "",
+        "website": "10thplanetcalgary.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.07274097182402,
+          51.05149723722232
+        ],
+        "mapCoordinates": [
+          51.05149723722232,
+          -114.07274097182402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5595,
+        "name": "10th Planet Jiu Jitsu Colorado Springs",
+        "city": "Colorado Springs",
+        "state": "Colorado",
+        "stateAbbr": "CO",
+        "country": "USA",
+        "address": "",
+        "website": "10thplanetcoloradosprings.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8214,
+          38.8339
+        ],
+        "mapCoordinates": [
+          38.8339,
+          -104.8214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2840,
+        "name": "10th Planet Jiu Jitsu Decatur",
+        "city": "Decatur",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "108 Lenwood Rd SE",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9822846,
+          34.5408805
+        ],
+        "mapCoordinates": [
+          34.5408805,
+          -86.9822846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6013,
+        "name": "10th Planet Jiu Jitsu Dublin",
+        "city": "Dublin",
+        "state": "",
+        "stateAbbr": "",
+        "country": "IRL",
+        "address": "",
+        "website": "10thplanetdublin.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.265,
+          53.345
+        ],
+        "mapCoordinates": [
+          53.345,
+          -6.265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8213,
+        "name": "10th Planet Jiu Jitsu El Paso",
+        "city": "El Paso",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "10854 Pellicano Dr, El Paso, TX 79935",
+        "website": "10thplanetelpaso.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.485,
+          31.7619
+        ],
+        "mapCoordinates": [
+          31.7619,
+          -106.485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 914,
+        "name": "10th Planet Jiu Jitsu Hollywood",
+        "city": "Hollywood",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1615 N La Brea Ave",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3253,
+          34.098
+        ],
+        "mapCoordinates": [
+          34.098,
+          -118.3253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10498,
+        "name": "10th Planet Jiu Jitsu Riverside",
+        "city": "Riverside",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "3700 Van Buren Ave #110",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.37164213743185,
+          33.976179394199896
+        ],
+        "mapCoordinates": [
+          33.976179394199896,
+          -117.37164213743185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2140,
+        "name": "10th Planet Jiu Jitsu San Mateo",
+        "city": "San Mateo",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "910 S Amphlett Blvd, San Mateo, CA 94402",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3100619,
+          37.5667236
+        ],
+        "mapCoordinates": [
+          37.5667236,
+          -122.3100619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2764,
+        "name": "10th Planet Jiu Jitsu Santa Barbara",
+        "city": "Santa Barbara",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1113 State St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7034787,
+          34.4225253
+        ],
+        "mapCoordinates": [
+          34.4225253,
+          -119.7034787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1807,
+        "name": "10th Planet Jiu Jitsu Whittier",
+        "city": "Whittier",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "9150 Painter Ave, Whittier, CA 90602",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0422168,
+          33.9541268
+        ],
+        "mapCoordinates": [
+          33.9541268,
+          -118.0422168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8821,
+        "name": "10th Planet Jiu Jitsu Whittier",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "9150 Painter Ave Unit D",
+        "website": "10thpwhittier.sites.zenplanner.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ],
+        "mapCoordinates": [
+          34.0522,
+          -118.2437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4295,
+        "name": "10th Planet Jiu-Jitsu Henderson",
+        "city": "Henderson",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "1225 W Warm Springs Rd #140",
+        "website": "10thplanetlasvegas.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1298,
+          36.0358
+        ],
+        "mapCoordinates": [
+          36.0358,
+          -115.1298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1005,
+        "name": "10th Planet Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "4770 S Durango Dr",
+        "website": "10thplanetlv.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1739,
+          36.1215
+        ],
+        "mapCoordinates": [
+          36.1215,
+          -115.1739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1990,
+        "name": "10th Planet Las Vegas Central",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "4533 West Sahara Ave, Las Vegas, NV 89102",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2015543,
+          36.1446415
+        ],
+        "mapCoordinates": [
+          36.1446415,
+          -115.2015543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11856,
+        "name": "10th Planet Long Beach",
+        "city": "Long Beach",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "Long Beach, CA",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1937,
+          33.7701
+        ],
+        "mapCoordinates": [
+          33.7701,
+          -118.1937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18028,
+        "name": "10th Planet Los Angeles",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "Hollywood",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ],
+        "mapCoordinates": [
+          34.0522,
+          -118.2437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5101,
+        "name": "10th Planet Oakland",
+        "city": "Oakland",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "Oakland, CA",
+        "website": "10thplanetoakland.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2712,
+          37.8044
+        ],
+        "mapCoordinates": [
+          37.8044,
+          -122.2712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1970,
+        "name": "10th Planet Oceanside",
+        "city": "Oceanside",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1791 S Oceanside Blvd, Oceanside, CA 92054",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.359025,
+          33.1916355
+        ],
+        "mapCoordinates": [
+          33.1916355,
+          -117.359025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8873,
+        "name": "10th Planet Oceanside San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1791 S Oceanside Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.359025,
+          33.1916355
+        ],
+        "mapCoordinates": [
+          33.1916355,
+          -117.359025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10469,
+        "name": "10th Planet Orange CA",
+        "city": "Orange",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1832 N Tustin St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.83081905948293,
+          33.80252111723562
+        ],
+        "mapCoordinates": [
+          33.80252111723562,
+          -117.83081905948293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 925,
+        "name": "10th Planet Riverside",
+        "city": "Riverside",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "3333 Central Ave",
+        "website": "10thplanetriversideca.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3755,
+          33.9806
+        ],
+        "mapCoordinates": [
+          33.9806,
+          -117.3755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2233,
+        "name": "10th Planet Sacramento",
+        "city": "Sacramento",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "8345 Folsom Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3968774,
+          38.5471294
+        ],
+        "mapCoordinates": [
+          38.5471294,
+          -121.3968774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18032,
+        "name": "10th Planet San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "Kearny Mesa",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ],
+        "mapCoordinates": [
+          32.7157,
+          -117.1611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18033,
+        "name": "10th Planet San Francisco",
+        "city": "San Francisco",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "SoMa",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194,
+          37.7749
+        ],
+        "mapCoordinates": [
+          37.7749,
+          -122.4194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 987,
+        "name": "10th Planet San Jose",
+        "city": "San Jose",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1055 Saratoga Ave",
+        "website": "10thplanetsj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8891,
+          37.3357
+        ],
+        "mapCoordinates": [
+          37.3357,
+          -121.8891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1312,
+        "name": "10th Planet Santa Cruz",
+        "city": "Santa Cruz",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "303 Soquel Ave",
+        "website": "10thplanetsantacruz.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0308,
+          36.9741
+        ],
+        "mapCoordinates": [
+          36.9741,
+          -122.0308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15764,
+        "name": "10th Planet Stockton Inside BJJ Academy",
+        "city": "Stockton",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "3422 W Hammer Ln",
+        "website": "10thplanetstockton.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3606065,
+          38.0202758
+        ],
+        "mapCoordinates": [
+          38.0202758,
+          -121.3606065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1287,
+        "name": "10th Planet Torrance",
+        "city": "Torrance",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "2547 Pacific Coast Hwy",
+        "website": "10thplanettorrance.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.364,
+          33.838
+        ],
+        "mapCoordinates": [
+          33.838,
+          -118.364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10362,
+        "name": "10th Planet West LA",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1080 S La Cienega Blvd #106",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.38267603583593,
+          34.052145939748975
+        ],
+        "mapCoordinates": [
+          34.052145939748975,
+          -118.38267603583593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3253,
+        "name": "12.22 Brazilian Jiu Jitsu San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "8360 Camino Santa Fe",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1721084,
+          32.8805673
+        ],
+        "mapCoordinates": [
+          32.8805673,
+          -117.1721084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1808,
+        "name": "5 Star Martial Arts LA",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "4201 Wilshire Blvd, Los Angeles, CA 90010",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3192414,
+          34.0620706
+        ],
+        "mapCoordinates": [
+          34.0620706,
+          -118.3192414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3293,
+        "name": "5 Star Martial Arts Los Angeles",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "4201 Wilshire Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3192414,
+          34.0620706
+        ],
+        "mapCoordinates": [
+          34.0620706,
+          -118.3192414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10487,
+        "name": "690 Martial Arts and Fitness",
+        "city": "Thousand Oaks",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "2845 Thousand Oaks Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.83775821184938,
+          34.17340692736816
+        ],
+        "mapCoordinates": [
+          34.17340692736816,
+          -118.83775821184938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2436,
+        "name": "7th Generation Jiu-Jitsu",
+        "city": "Fresno",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "50 W Bullard Ave, Suite 114",
+        "website": "7thgenerationbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7919017,
+          36.8236891
+        ],
+        "mapCoordinates": [
+          36.8236891,
+          -119.7919017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1971,
+        "name": "99 Jiu-Jitsu HQ San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "4425 Convoy St, San Diego, CA 92111",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1547395,
+          32.820843
+        ],
+        "mapCoordinates": [
+          32.820843,
+          -117.1547395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9175,
+        "name": "9th Isle BJJ",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "2430 N Decatur Blvd Suite 125",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.18,
+          36.18
+        ],
+        "mapCoordinates": [
+          36.18,
+          -115.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1991,
+        "name": "9th Isle BJJ Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "2430 N Decatur Blvd, Las Vegas, NV 89108",
+        "website": "9thislebjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2056677,
+          36.203322
+        ],
+        "mapCoordinates": [
+          36.203322,
+          -115.2056677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10818,
+        "name": "9th Isle Bjj Inc",
+        "city": "North Las Vegas",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "2410 N Decatur Blvd #125",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.17915314410025,
+          36.2225891595546
+        ],
+        "mapCoordinates": [
+          36.2225891595546,
+          -115.17915314410025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10457,
+        "name": "A M M S Jiu Jitsu and MMA Santa Clarita",
+        "city": "Santa Clarita",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "26330 Diamond Pl #220",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.50787698745035,
+          34.420621624507355
+        ],
+        "mapCoordinates": [
+          34.420621624507355,
+          -118.50787698745035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10516,
+        "name": "A-Team Jiu Jitsu",
+        "city": "Westminster",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "6330 Westminster Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.99630955982862,
+          33.75199047550453
+        ],
+        "mapCoordinates": [
+          33.75199047550453,
+          -117.99630955982862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3493,
+        "name": "AB Mixed Martial Arts Academy San Francisco",
+        "city": "San Francisco",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "2975 San Bruno Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4019944,
+          37.7244076
+        ],
+        "mapCoordinates": [
+          37.7244076,
+          -122.4019944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2193,
+        "name": "AEG Elite Grappling San Jose",
+        "city": "San Jose",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "7012 Realm Dr, San Jose, CA 95119",
+        "website": "elitegrappling.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7766839,
+          37.2287648
+        ],
+        "mapCoordinates": [
+          37.2287648,
+          -121.7766839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5323,
+        "name": "AG Jiu Jitsu Reno Sparks",
+        "city": "Reno",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "Reno/Sparks, NV",
+        "website": "agjiujitsu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8138,
+          39.5296
+        ],
+        "mapCoordinates": [
+          39.5296,
+          -119.8138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9570,
+        "name": "AIM Jiu-Jitsu Sacramento",
+        "city": "Sacramento",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "5801 Power Inn Rd Unit C",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44,
+          38.52
+        ],
+        "mapCoordinates": [
+          38.52,
+          -121.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10509,
+        "name": "AK Martial Arts & Fitness",
+        "city": "Carlsbad",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "6120 Innovation Way",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.35221052210193,
+          33.154962781795746
+        ],
+        "mapCoordinates": [
+          33.154962781795746,
+          -117.35221052210193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 930,
+        "name": "Absolute MMA San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "4555 Kearny Villa Rd",
+        "website": "absolutemmasd.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0961,
+          32.7831
+        ],
+        "mapCoordinates": [
+          32.7831,
+          -117.0961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2758,
+        "name": "Absolution Brazilian Jiu-Jitsu",
+        "city": "Riverside",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "6511 Magnolia Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.395931,
+          33.95451
+        ],
+        "mapCoordinates": [
+          33.95451,
+          -117.395931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8823,
+        "name": "Academy Of Martial Science LA",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "2811 Whittier Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2097672,
+          34.0318166
+        ],
+        "mapCoordinates": [
+          34.0318166,
+          -118.2097672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3294,
+        "name": "Academy of BJJ Woodland Hills",
+        "city": "Woodland Hills",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "9820 CA-27",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6059367,
+          34.168054
+        ],
+        "mapCoordinates": [
+          34.168054,
+          -118.6059367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1735,
+        "name": "Academy of Brazilian Jiu Jitsu LA",
+        "city": "Woodland Hills",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "9820 CA-27, Woodland Hills, CA",
+        "website": "academyofbrazilianjiujitsu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6059367,
+          34.168054
+        ],
+        "mapCoordinates": [
+          34.168054,
+          -118.6059367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10523,
+        "name": "Adrenaline MMA Gym",
+        "city": "San Bernardino",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "1930 S E St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.29405775128839,
+          34.108902355910736
+        ],
+        "mapCoordinates": [
+          34.108902355910736,
+          -117.29405775128839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1986,
+        "name": "Aftermath Brazilian Jiu-Jitsu Poway",
+        "city": "Poway",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "12643 Poway Rd, Poway, CA 92064",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0573782,
+          32.9538127
+        ],
+        "mapCoordinates": [
+          32.9538127,
+          -117.0573782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8874,
+        "name": "Aftermath Brazilian Jiu-Jitsu San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "12643 Poway Rd",
+        "website": "aftermathbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0573782,
+          32.9538127
+        ],
+        "mapCoordinates": [
+          32.9538127,
+          -117.0573782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3516,
+        "name": "Agan BJJ Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "3525 S Fort Apache Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2962386,
+          36.1497919
+        ],
+        "mapCoordinates": [
+          36.1497919,
+          -115.2962386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19617,
+        "name": "Agoura Hills CA BJJ",
+        "city": "Agoura Hills",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "30255 Agoura Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7614,
+          34.153
+        ],
+        "mapCoordinates": [
+          34.153,
+          -118.7614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2437,
+        "name": "AirWrang Mixed Martial Arts",
+        "city": "Fresno",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "673 E Nees Ave",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7728655,
+          36.8508037
+        ],
+        "mapCoordinates": [
+          36.8508037,
+          -119.7728655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20106,
+        "name": "Alhambra CA BJJ",
+        "city": "Alhambra",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "111 S First St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.127,
+          34.0953
+        ],
+        "mapCoordinates": [
+          34.0953,
+          -118.127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20091,
+        "name": "Aliso Viejo CA BJJ Academy",
+        "city": "Aliso Viejo",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "12 Journey",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.725,
+          33.5769
+        ],
+        "mapCoordinates": [
+          33.5769,
+          -117.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1736,
+        "name": "All In Academy LA",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "5801 W Pico Blvd, Los Angeles, CA 90035",
+        "website": "allinacademyla.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.364617,
+          34.051194
+        ],
+        "mapCoordinates": [
+          34.051194,
+          -118.364617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3296,
+        "name": "All In Academy Los Angeles",
+        "city": "Los Angeles",
+        "state": "California",
+        "stateAbbr": "CA",
+        "country": "USA",
+        "address": "5801 W Pico Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.364617,
+          34.051194
+        ],
+        "mapCoordinates": [
+          34.051194,
+          -118.364617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2452,
+        "name": "Allground Reno",
+        "city": "Reno",
+        "state": "Nevada",
+        "stateAbbr": "NV",
+        "country": "USA",
+        "address": "5635 Riggins Ct",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7764524,
+          39.4707595
+        ],
+        "mapCoordinates": [
+          39.4707595,
+          -119.7764524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4023,
+        "name": "10th Planet Littleton",
+        "city": "Littleton",
+        "state": "Colorado",
+        "stateAbbr": "CO",
+        "country": "USA",
+        "address": "5302 S Federal Cir",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0285992,
+          39.6194581
+        ],
+        "mapCoordinates": [
+          39.6194581,
+          -105.0285992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6695,
+        "name": "10th Planet Livonia",
+        "city": "Livonia",
+        "state": "Michigan",
+        "stateAbbr": "MI",
+        "country": "USA",
+        "address": "12924 Farmington Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3527,
+          42.3684
+        ],
+        "mapCoordinates": [
+          42.3684,
+          -83.3527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5074,
+        "name": "10th Planet Lombard",
+        "city": "Lombard",
+        "state": "Illinois",
+        "stateAbbr": "IL",
+        "country": "USA",
+        "address": "Lombard, IL",
+        "website": "10plombard.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.007,
+          41.88
+        ],
+        "mapCoordinates": [
+          41.88,
+          -88.007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7363,
+        "name": "10th Planet Long Island",
+        "city": "Hauppauge",
+        "state": "New York",
+        "stateAbbr": "NY",
+        "country": "USA",
+        "address": "601 Old Willets Path",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2043,
+          40.8223
+        ],
+        "mapCoordinates": [
+          40.8223,
+          -73.2043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12266,
+        "name": "10th Planet Manchester",
+        "city": "Manchester",
+        "state": "New Hampshire",
+        "stateAbbr": "NH",
+        "country": "USA",
+        "address": "Manchester, NH",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4548,
+          42.9956
+        ],
+        "mapCoordinates": [
+          42.9956,
+          -71.4548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1354,
+        "name": "10th Planet Memphis",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "stateAbbr": "TN",
+        "country": "USA",
+        "address": "4315 Covington Pike",
+        "website": "10thplanetmemphis.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.01,
+          35.12
+        ],
+        "mapCoordinates": [
+          35.12,
+          -90.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11874,
+        "name": "10th Planet Mesa",
+        "city": "Mesa",
+        "state": "Arizona",
+        "stateAbbr": "AZ",
+        "country": "USA",
+        "address": "Mesa, AZ",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8315,
+          33.4152
+        ],
+        "mapCoordinates": [
+          33.4152,
+          -111.8315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4566,
+        "name": "10th Planet Mexico City",
+        "city": "Mexico City",
+        "state": "",
+        "stateAbbr": "",
+        "country": "MEX",
+        "address": "Mexico City",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "mapCoordinates": [
+          19.4326,
+          -99.1332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1766,
+        "name": "10th Planet Miami",
+        "city": "Miramar",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "6315 Miramar Pkwy, Miramar, FL 33023",
+        "website": "10thplanetmiami.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.213035,
+          25.9846692
+        ],
+        "mapCoordinates": [
+          25.9846692,
+          -80.213035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8909,
+        "name": "10th Planet Miami",
+        "city": "Miami",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "6315 Miramar Pkwy",
+        "website": "10thplanetmiami.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1918,
+          25.7617
+        ],
+        "mapCoordinates": [
+          25.7617,
+          -80.1918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12179,
+        "name": "10th Planet Montgomery AL",
+        "city": "Montgomery",
+        "state": "Alabama",
+        "stateAbbr": "AL",
+        "country": "USA",
+        "address": "Montgomery, AL",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3,
+          32.3668
+        ],
+        "mapCoordinates": [
+          32.3668,
+          -86.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4532,
+        "name": "10th Planet Montreal",
+        "city": "Montreal",
+        "state": "Quebec",
+        "stateAbbr": "QC",
+        "country": "CAN",
+        "address": "Montreal",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5673,
+          45.5017
+        ],
+        "mapCoordinates": [
+          45.5017,
+          -73.5673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7261,
+        "name": "10th Planet NYC No-Gi Jiu Jitsu",
+        "city": "New York",
+        "state": "New York",
+        "stateAbbr": "NY",
+        "country": "USA",
+        "address": "35 W 43rd St 4th Floor",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.7128
+        ],
+        "mapCoordinates": [
+          40.7128,
+          -74.006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 908,
+        "name": "10th Planet New York",
+        "city": "New York",
+        "state": "New York",
+        "stateAbbr": "NY",
+        "country": "USA",
+        "address": "99 MacDougal St",
+        "website": "10thplanetnyc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9973,
+          40.7308
+        ],
+        "mapCoordinates": [
+          40.7308,
+          -73.9973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3327,
+        "name": "10th Planet New York City",
+        "city": "New York",
+        "state": "New York",
+        "stateAbbr": "NY",
+        "country": "USA",
+        "address": "35 W 43rd St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9820091,
+          40.7550516
+        ],
+        "mapCoordinates": [
+          40.7550516,
+          -73.9820091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3926,
+        "name": "10th Planet Oak Hill Austin TX",
+        "city": "Austin",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "6120 US-290",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7567457,
+          30.2654081
+        ],
+        "mapCoordinates": [
+          30.2654081,
+          -97.7567457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2591,
+        "name": "10th Planet Orange Park",
+        "city": "Orange Park",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "1101 Blanding Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7836905,
+          30.1309638
+        ],
+        "mapCoordinates": [
+          30.1309638,
+          -81.7836905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1064,
+        "name": "10th Planet Orlando",
+        "city": "Orlando",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "4800 S Kirkman Rd",
+        "website": "10thplanetorlando.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4594,
+          28.4813
+        ],
+        "mapCoordinates": [
+          28.4813,
+          -81.4594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2660,
+        "name": "10th Planet Palm Beach",
+        "city": "West Palm Beach",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "5033 Okeechobee Blvd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1576822,
+          26.7080907
+        ],
+        "mapCoordinates": [
+          26.7080907,
+          -80.1576822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1016,
+        "name": "10th Planet Philadelphia",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "1429 Walnut St",
+        "website": "10thplanetphilly.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1455,
+          39.9573
+        ],
+        "mapCoordinates": [
+          39.9573,
+          -75.1455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 979,
+        "name": "10th Planet Phoenix",
+        "city": "Phoenix",
+        "state": "Arizona",
+        "stateAbbr": "AZ",
+        "country": "USA",
+        "address": "3030 E Thomas Rd",
+        "website": "10thplanetphoenix.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.02,
+          33.4484
+        ],
+        "mapCoordinates": [
+          33.4484,
+          -112.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12260,
+        "name": "10th Planet Portland",
+        "city": "Portland",
+        "state": "Maine",
+        "stateAbbr": "ME",
+        "country": "USA",
+        "address": "Portland, ME",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.2568,
+          43.6591
+        ],
+        "mapCoordinates": [
+          43.6591,
+          -70.2568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12223,
+        "name": "10th Planet Providence RI",
+        "city": "Providence",
+        "state": "Rhode Island",
+        "stateAbbr": "RI",
+        "country": "USA",
+        "address": "Providence, RI",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4128,
+          41.824
+        ],
+        "mapCoordinates": [
+          41.824,
+          -71.4128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8214,
+        "name": "10th Planet Round Rock",
+        "city": "Round Rock",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "3810 Gattis School Road Suite 109-110, Round Rock, TX 78664",
+        "website": "10thplanetroundrock.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6789,
+          30.5083
+        ],
+        "mapCoordinates": [
+          30.5083,
+          -97.6789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6661,
+        "name": "10th Planet Royal Oak",
+        "city": "Clawson",
+        "state": "Michigan",
+        "stateAbbr": "MI",
+        "country": "USA",
+        "address": "157 N Rochester Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1455,
+          42.5337
+        ],
+        "mapCoordinates": [
+          42.5337,
+          -83.1455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6662,
+        "name": "10th Planet Saginaw",
+        "city": "Saginaw",
+        "state": "Michigan",
+        "stateAbbr": "MI",
+        "country": "USA",
+        "address": "7679 Gratiot Rd",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9508,
+          43.4195
+        ],
+        "mapCoordinates": [
+          43.4195,
+          -83.9508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1263,
+        "name": "10th Planet San Antonio",
+        "city": "San Antonio",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "12900 Interstate 10 W",
+        "website": "10thplanetsa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42,
+          29.5
+        ],
+        "mapCoordinates": [
+          29.5,
+          -98.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3451,
+        "name": "10th Planet San Antonio",
+        "city": "Universal City",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "11503 TX 1605 Loop",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2911235,
+          29.5480071
+        ],
+        "mapCoordinates": [
+          29.5480071,
+          -98.2911235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8010,
+        "name": "10th Planet San Antonio Huebner Oaks",
+        "city": "San Antonio",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "11255 Huebner Road, San Antonio, TX 78230",
+        "website": "10psanantonio.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4936,
+          29.4241
+        ],
+        "mapCoordinates": [
+          29.4241,
+          -98.4936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2671,
+        "name": "10th Planet Savannah",
+        "city": "Savannah",
+        "state": "Georgia",
+        "stateAbbr": "GA",
+        "country": "USA",
+        "address": "1319 Bull St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.098326,
+          32.0626954
+        ],
+        "mapCoordinates": [
+          32.0626954,
+          -81.098326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18031,
+        "name": "10th Planet Seattle",
+        "city": "Seattle",
+        "state": "Washington",
+        "stateAbbr": "WA",
+        "country": "USA",
+        "address": "Fremont",
+        "website": "10thplanetjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ],
+        "mapCoordinates": [
+          47.6062,
+          -122.3321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7703,
+        "name": "10th Planet St Augustine",
+        "city": "St. Augustine",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "2680 Stratton Blvd Suite 5, St. Augustine, FL 32084",
+        "website": "thejiujitsustudio.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3145,
+          29.8943
+        ],
+        "mapCoordinates": [
+          29.8943,
+          -81.3145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4679,
+        "name": "10th Planet Tampere Finland",
+        "city": "Tampere",
+        "state": "",
+        "stateAbbr": "",
+        "country": "FI",
+        "address": "Rautatienkatu 21",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.761,
+          61.4978
+        ],
+        "mapCoordinates": [
+          61.4978,
+          23.761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12083,
+        "name": "10th Planet Warsaw",
+        "city": "Warsaw",
+        "state": "",
+        "stateAbbr": "",
+        "country": "PL",
+        "address": "Warsaw",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0122,
+          52.2297
+        ],
+        "mapCoordinates": [
+          52.2297,
+          21.0122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7704,
+        "name": "10th Planet West Palm Beach",
+        "city": "West Palm Beach",
+        "state": "Florida",
+        "stateAbbr": "FL",
+        "country": "USA",
+        "address": "5033 Okeechobee Blvd, West Palm Beach, FL 33417",
+        "website": "aopmma.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0534,
+          26.7153
+        ],
+        "mapCoordinates": [
+          26.7153,
+          -80.0534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12253,
+        "name": "10th Planet Wichita",
+        "city": "Wichita",
+        "state": "Kansas",
+        "stateAbbr": "KS",
+        "country": "USA",
+        "address": "Wichita, KS",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3301,
+          37.6872
+        ],
+        "mapCoordinates": [
+          37.6872,
+          -97.3301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10668,
+        "name": "11th Dimension Athletics",
+        "city": "Joliet",
+        "state": "Illinois",
+        "stateAbbr": "IL",
+        "country": "USA",
+        "address": "557 N Scott St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.08442908112313,
+          41.52280647299257
+        ],
+        "mapCoordinates": [
+          41.52280647299257,
+          -88.08442908112313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7522,
+        "name": "11th Dimension Martial Arts",
+        "city": "Joliet",
+        "state": "Illinois",
+        "stateAbbr": "IL",
+        "country": "USA",
+        "address": "210 E Cass St",
+        "website": "11thdimension.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0817,
+          41.525
+        ],
+        "mapCoordinates": [
+          41.525,
+          -88.0817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9148,
+        "name": "127 BJJ",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "123 Leverington Ave Suite P2",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.22,
+          39.97
+        ],
+        "mapCoordinates": [
+          39.97,
+          -75.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10852,
+        "name": "127 BJJ LLC",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "116 Fountain St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16516255070361,
+          39.94808875962495
+        ],
+        "mapCoordinates": [
+          39.94808875962495,
+          -75.16516255070361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5080,
+        "name": "127 BJJ Manayunk Philadelphia",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "123 Leverington Ave, Manayunk, PA",
+        "website": "127bjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2254,
+          40.022
+        ],
+        "mapCoordinates": [
+          40.022,
+          -75.2254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1955,
+        "name": "127 BJJ Philadelphia",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "stateAbbr": "PA",
+        "country": "USA",
+        "address": "123 Leverington Ave, Philadelphia, PA 19127",
+        "website": "127bjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2285445,
+          40.0291939
+        ],
+        "mapCoordinates": [
+          40.0291939,
+          -75.2285445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1845,
+        "name": "12th Street BJJ",
+        "city": "Phoenix",
+        "state": "Arizona",
+        "stateAbbr": "AZ",
+        "country": "USA",
+        "address": "1107 East Bell Rd, Phoenix, AZ 85022",
+        "website": "12stjiujitsu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0580737,
+          33.6395354
+        ],
+        "mapCoordinates": [
+          33.6395354,
+          -112.0580737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1756,
+        "name": "144 Academy",
+        "city": "Dallas",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "3406 Easy St, Dallas, TX 75247",
+        "website": "144academy.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8758978,
+          32.807444
+        ],
+        "mapCoordinates": [
+          32.807444,
+          -96.8758978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3399,
+        "name": "144 Academy Dallas",
+        "city": "Dallas",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "3406 Easy St",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8758978,
+          32.807444
+        ],
+        "mapCoordinates": [
+          32.807444,
+          -96.8758978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9827,
+        "name": "1441 BJJ Joao Pessoa",
+        "city": "Joao Pessoa",
+        "state": "Para\u00edba",
+        "stateAbbr": "PB",
+        "country": "BRA",
+        "address": "Av Sao Rafael 1034",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.85,
+          -7.12
+        ],
+        "mapCoordinates": [
+          -7.12,
+          -34.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4833,
+        "name": "187 BJJ Moscow",
+        "city": "Moscow",
+        "state": "",
+        "stateAbbr": "",
+        "country": "RU",
+        "address": "Moscow",
+        "website": "187bjj.ru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ],
+        "mapCoordinates": [
+          55.7558,
+          37.6173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9668,
+        "name": "1925 Jiu-Jitsu Brasilia",
+        "city": "Brasilia",
+        "state": "Distrito Federal",
+        "stateAbbr": "DF",
+        "country": "BRA",
+        "address": "Lago Norte",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.89,
+          -15.74
+        ],
+        "mapCoordinates": [
+          -15.74,
+          -47.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9669,
+        "name": "2 Brothers BFC Brasil",
+        "city": "Brasilia",
+        "state": "Distrito Federal",
+        "stateAbbr": "DF",
+        "country": "BRA",
+        "address": "Quadra Scrn 712/713 Bloco C 101",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9,
+          -15.77
+        ],
+        "mapCoordinates": [
+          -15.77,
+          -47.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9368,
+        "name": "2 Irm\u00e3os BJJ",
+        "city": "Rio de Janeiro",
+        "state": "Rio de Janeiro",
+        "stateAbbr": "RJ",
+        "country": "BRA",
+        "address": "Av Gerem\u00e1rio Dantas 197 Sala 306, Jacarepagu\u00e1",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.38,
+          -22.93
+        ],
+        "mapCoordinates": [
+          -22.93,
+          -43.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10937,
+        "name": "2 Knuckle Sports MMA Academy",
+        "city": "Surprise",
+        "state": "Arizona",
+        "stateAbbr": "AZ",
+        "country": "USA",
+        "address": "16630 W Greenway Rd #314",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.34272835651812,
+          33.630902883346465
+        ],
+        "mapCoordinates": [
+          33.630902883346465,
+          -112.34272835651812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6270,
+        "name": "208 Jiu Jitsu Academy",
+        "city": "Nampa",
+        "state": "Idaho",
+        "stateAbbr": "ID",
+        "country": "USA",
+        "address": "8849 Grizzly Ln",
+        "website": "208jiujitsuacademy.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.563,
+          43.54
+        ],
+        "mapCoordinates": [
+          43.54,
+          -116.563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6577,
+        "name": "219 Submission Academy",
+        "city": "Crown Point",
+        "state": "Indiana",
+        "stateAbbr": "IN",
+        "country": "USA",
+        "address": "1516 N Main St 3rd Floor",
+        "website": "219submission.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.367,
+          41.417
+        ],
+        "mapCoordinates": [
+          41.417,
+          -87.367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1615,
+        "name": "220Volts Projeto Social Arte Suave",
+        "city": "S\u00e3o Paulo",
+        "state": "S\u00e3o Paulo",
+        "stateAbbr": "SP",
+        "country": "BRA",
+        "address": "Rua Vicente Palma, 17",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6984287,
+          -23.4798479
+        ],
+        "mapCoordinates": [
+          -23.4798479,
+          -46.6984287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8418,
+        "name": "222 Jiu Jitsu Newcastle",
+        "city": "Newcastle upon Tyne",
+        "state": "ENG",
+        "stateAbbr": "ENG",
+        "country": "GBR",
+        "address": "Newcastle upon Tyne, UK",
+        "website": "222jiujitsu.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6131572,
+          54.9738474
+        ],
+        "mapCoordinates": [
+          54.9738474,
+          -1.6131572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6350,
+        "name": "2nd Gear Jiu Jitsu",
+        "city": "Laurel",
+        "state": "Maryland",
+        "stateAbbr": "MD",
+        "country": "USA",
+        "address": "8730 Cherry Ln Ste 14",
+        "website": "2ndgearbjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.846,
+          39.101
+        ],
+        "mapCoordinates": [
+          39.101,
+          -76.846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8011,
+        "name": "3 Embers Grappling Academy",
+        "city": "McKinney",
+        "state": "Texas",
+        "stateAbbr": "TX",
+        "country": "USA",
+        "address": "320 Industrial Blvd STE 206, McKinney, TX 75069",
+        "website": "3embersgrapplingacademy.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6397,
+          33.1972
+        ],
+        "mapCoordinates": [
+          33.1972,
+          -96.6397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9369,
+        "name": "3 V Jiu-Jitsu",
+        "city": "Rio de Janeiro",
+        "state": "Rio de Janeiro",
+        "stateAbbr": "RJ",
+        "country": "BRA",
+        "address": "Av Gerem\u00e1rio Dantas 148 Sala 203, Jacarepagu\u00e1",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.38,
+          -22.93
+        ],
+        "mapCoordinates": [
+          -22.93,
+          -43.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6313,
+        "name": "301 MMA & Fitness",
+        "city": "Gambrills",
+        "state": "Maryland",
+        "stateAbbr": "MD",
+        "country": "USA",
+        "address": "750 MD-3 Suite C21",
+        "website": "301mmagym.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.654,
+          39.012
+        ],
+        "mapCoordinates": [
+          39.012,
+          -76.654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4042,
+        "name": "302 BJJ",
+        "city": "Wilmington",
+        "state": "Delaware",
+        "stateAbbr": "DE",
+        "country": "USA",
+        "address": "3904 Evelyn Dr",
+        "website": "302bjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6005,
+          39.7161
+        ],
+        "mapCoordinates": [
+          39.7161,
+          -75.6005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5357,
+        "name": "302 BJJ",
+        "city": "Newark",
+        "state": "Delaware",
+        "stateAbbr": "DE",
+        "country": "USA",
+        "address": "Newark, DE",
+        "website": "302bjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7497,
+          39.6837
+        ],
+        "mapCoordinates": [
+          39.6837,
+          -75.7497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4495,
+        "name": "302 BJJ Delaware",
+        "city": "Wilmington",
+        "state": "Delaware",
+        "stateAbbr": "DE",
+        "country": "USA",
+        "address": "Wilmington",
+        "website": "302bjj.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5484,
+          39.7447
+        ],
+        "mapCoordinates": [
+          39.7447,
+          -75.5484
+        ]
+      }
+    }
+  ]
 }
-    
-    
-    

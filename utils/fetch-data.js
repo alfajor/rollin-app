@@ -18,7 +18,7 @@ export const getJsonData = async () => {
 
 // local data source
 export const getTestJsonData = async () => {
-  const res = await fetch('./data/test-data.json');
+  const res = await fetch('./data/academies.json');
   const json = await res.json()
 
   return json;

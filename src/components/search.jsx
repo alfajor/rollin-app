@@ -39,7 +39,7 @@ const Search = () => {
     // fly to search results on map & open popup
     const zoomToResults = (item) => {
         const mapPopupDetails = `<b>${item.properties.name}</b>. <br /> ${item.properties.address}. <br /> ${item.properties.city},
-                                ${item.properties.state}.<br /> <a href=http://${item.properties.website}>${item.properties.website}</a>`;
+                                ${item.properties.state}.<br /> <a href=http://${item.properties.website} target="_blank" rel="noopener>${item.properties.website}</a>`;
         if(map) {
             L.popup().setLatLng(item.geometry.mapCoordinates).setContent(mapPopupDetails).openOn(map.target)
             map.target.flyTo(item.geometry.mapCoordinates, 13)
@@ -80,7 +80,7 @@ const Search = () => {
                             <ResultsContent key={idx} onClick={() => zoomToResults(item)}>
                                 <h4>{resultsName}</h4>
                                 <span>{resultsLocation}</span>
-                                <p><a href={`http://${resultsContact}`} target="_blank">{resultsContact}</a></p>
+                                <p><a href={`http://${resultsContact}`} target="_blank" rel="noopener">{resultsContact}</a></p>
                             </ResultsContent>
                             </>
                         )
@@ -92,12 +92,13 @@ const Search = () => {
 }
 
 const SearchInput = styled.input`
-    border: 1px solid ${globalStyles.colors.caribbean_ocean};
+    border: 1px solid ${globalStyles.colors.primary_light};
     border-radius: 5px;
     background: transparent;
     padding: 12px 6px;
-    color: ${globalStyles.colors.primary_light};;
+    color: ${globalStyles.colors.primary_light};
     width: 60%;
+    outline: none;
 `;
 
 const ResultsContainer = styled.div`
@@ -106,7 +107,7 @@ const ResultsContainer = styled.div`
     margin-top: 20px;
     line-height: 1.4;
     overflow-y: scroll;
-    width: 90%;
+    width: 95%;
 `;
 
 const ResultsSortWrapper = styled.div`

@@ -60,7 +60,7 @@ const Map = ({mapSize}) => {
                                             website: feature.properties.website
                                         }
                                     const formattedResults = `<b>${results.name}</b>. <br /> ${results.address}. <br /> ${results.city},
-                                                              ${results.state}.<br /> <a href=http://${results.website}>${results.website}</a>`; 
+                                                              ${results.state}.<br /> <a href=http://${results.website} target="_blank" rel="noopener">${results.website}</a>`; 
                                     layer.bindPopup(formattedResults)
                             }} pointToLayer={(feature, latlng) => { 
                                 // set custom icon
