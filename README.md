@@ -6,7 +6,7 @@ This currently features a basic map view and search that pulls in test data from
 
 The map makes use of Leaflet, which relies on a GeoJSON data format. All data entries inside `test-data.json` must adhere to this format.
 
-Eventually, it would be great if data were sourced from a dedicated API service. This is another work in progress project.
+Eventually, data may were sourced from a dedicated API service. This is another work in progress project.
 Other features and functionality will continue to be added.
 
 # Use
@@ -15,4 +15,9 @@ Other features and functionality will continue to be added.
 
 # Contributing 
 
-Academy JSON contributions are most needed. Building a dataset of BJJ schools throughout the U.S and globally is a huge lift. Any contributions to this are welcome.
+Contributions to the academy listings JSON are most needed. Building a dataset of BJJ schools throughout the U.S and globally is a huge lift. Any contributions to this are welcome. WIP listings can be found in `data/academies.json`. 
+
+Some future state ideas include: 
+
+- gym distance / directions
+- more detailed gym info - reviews, etc

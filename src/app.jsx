@@ -31,13 +31,14 @@ const App = () => {
 
               <ModalTextWrapper>
                 <p>We love training in BJJ but finding academies can be tedious.</p> 
+                <p>Travelling and want to train somewhere? Looking for a new gym in your town?</p>
                 <p>Ditch the search engine and locate academies near you in one place. 
                   Get the address, website and academy details in one easy search, complete 
                   with map results.
                 </p>
 
-                <h4>Want to contribute to this project?</h4>
-                <p>We're always looking for help to make this app more complete. Check out the repo for info on contributing.</p>
+                <h4>Want to help with this project?</h4>
+                <p>We're always looking for help to make this app more robust. Check out the repo for info on contributing.</p>
                 <a href="https://github.com/alfajor/rollin-app" target="_blank"><img src="/icons/github.png" /></a>
               </ModalTextWrapper>
             </ModalWrapper>
@@ -102,11 +103,13 @@ const ModalWrapper = styled.div`
   z-index: 77;
   background-color: #34EDAF;
   color: #222;
-  display: ${(props) => props.isVisible ? 'flex' : 'none'};
+  display: flex;
   flex-flow: column;
   align-items: center;
   width: 60%;
   height: 100%;
+  transform: ${(props) => props.isVisible ? 'translateX(0)' : 'translateX(-100%)'};
+  transition: .4s transform linear;
 `;
 
 const ModalTextWrapper = styled.div`

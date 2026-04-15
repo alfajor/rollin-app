@@ -45,7 +45,7 @@ const Map = ({mapSize}) => {
                 <TileLayer
                     maxZoom={15}
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png" // https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+                    url="https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png"
                 />
                 {mapData && mapData.map((data, idx) => {
                     return (

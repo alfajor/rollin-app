@@ -2763,37 +2763,13 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 9175,
-        "name": "9th Isle BJJ",
-        "city": "Las Vegas",
-        "state": "Nevada",
-        "stateAbbr": "NV",
-        "country": "USA",
-        "address": "2430 N Decatur Blvd Suite 125",
-        "website": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.18,
-          36.18
-        ],
-        "mapCoordinates": [
-          36.18,
-          -115.18
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 1991,
         "name": "9th Isle BJJ Las Vegas",
         "city": "Las Vegas",
         "state": "Nevada",
         "stateAbbr": "NV",
         "country": "USA",
-        "address": "2430 N Decatur Blvd, Las Vegas, NV 89108",
+        "address": "2430 N Decatur Blvd",
         "website": "9thislebjj.com"
       },
       "geometry": {
@@ -2805,30 +2781,6 @@
         "mapCoordinates": [
           36.203322,
           -115.2056677
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 10818,
-        "name": "9th Isle Bjj Inc",
-        "city": "North Las Vegas",
-        "state": "Nevada",
-        "stateAbbr": "NV",
-        "country": "USA",
-        "address": "2410 N Decatur Blvd #125",
-        "website": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.17915314410025,
-          36.2225891595546
-        ],
-        "mapCoordinates": [
-          36.2225891595546,
-          -115.17915314410025
         ]
       }
     },
